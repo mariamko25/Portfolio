@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+
+<!-- your webpage info goes here -->
+
+    <title>Mariam Konaté</title>
+  
+  <meta name="author" content="MariamKonaté" />
+  <meta name="description" content="" />
+
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->  
+  <link rel="stylesheet" href="../Styles/Contact.css" type="text/css" />
+  
+</head>
+
+<body>
+
+<div id="page">
+    <div id="logo">
+      <h1><a href="../Index.html">MK</a></h1>
+    </div>
+
+    <div id="nav">
+      <ul>
+        <li ><a href="Education.html">Education</a></li>
+        <li><a  href="Projects.html">Projects</a></li>
+        <li><a id="currentPage" href="Contact.html">Contact</a></li>
+      </ul> 
+    </div>
+    <h3>Contact Form</h3>
+    <div class="container">
+
+<form name="contactform" method="post" action="../php/send_form_email.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit"> 
+ </td>
+</tr>
+</table>
+</form>
+<div id="footer">
+        <p>
+          Webpage made by [MariamKonaté]
+        </p>
+      </div>
+</div>
+
+</body>
+</html>

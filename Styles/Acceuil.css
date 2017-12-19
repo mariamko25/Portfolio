@@ -1,0 +1,96 @@
+p{
+    line-height: 1em; 
+}
+p:hover{ text-shadow: 0 0 10px blue;}
+h1{
+	color: #B0E0E6;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1:hover{ text-shadow: 0 0 10px blue;}
+a{  
+	color: #B0E0E6;
+	text-decoration: none;
+	border-style: none;
+}
+a:hover,a:active{ text-decoration: none; }
+
+body{
+    line-height: 1.2em; 
+    width: 100%; 
+    margin: 0; 
+    background-image: url("../images/blue.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+#titre
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 180px;
+    margin-right: 0px;
+    margin-left: 550px;
+    background-color: none;
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.2s linear;
+}
+
+#corps
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	color:#B0E0E6;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 400px;
+    background-color: none;
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.2s linear;
+}
+
+#description
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	color: #B0C4DE;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 0px;
+    margin-left: 450px;
+    background-color: none;
+}
+
+#bouton
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 8px;
+	width: 110px;
+	color: #B0C4DE;
+	padding-top: 10px;
+	padding-left: 10px; 
+    margin-top: 0px;
+    margin-bottom: 275px;
+    margin-right: 0px;
+    margin-left: 575px;
+    background-color: none;
+    border: 2px solid #B0E0E6;
+}
+#bouton:active{background-color: #B0C4DE;}
+#footer
+{
+	color: #B0C4DE;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 1050px;
+}
